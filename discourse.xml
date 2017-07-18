@@ -1,0 +1,30 @@
+<discourse-example>
+    <p id="1">
+        <text>
+            How are you doing?
+        </text>
+        <dialogue_act feedback = 'yes'>
+            greet
+        </dialogue_act>
+        <response>
+            <node id="2">
+            </node>
+            <answer_text>
+            </answer_text>
+        </response>
+    </p>
+    <p id="2">
+        <text>
+            I am doing well.
+        </text>
+        <dialogue_act feedback="no">
+            greet feedback
+        </dialogue_act>
+        <response>
+            <node id="">
+            </node>
+            <answer_text>
+            </answer_text>
+        </response>
+    </p>
+</discourse-example>
